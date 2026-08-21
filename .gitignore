@@ -1,0 +1,22 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

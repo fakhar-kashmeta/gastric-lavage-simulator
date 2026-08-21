@@ -1,0 +1,43 @@
+# Git
+.git
+.gitignore
+
+# Node modules (we'll install fresh)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment files (we'll use Cloud Run env vars)
+.env
+.env.local
+.env.*.local
+
+# Cache directories
+.cache
+.npm
+.npm-global
+
+# Build outputs (we'll rebuild in container)
+dist
+build
+
+# Development files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage
+.nyc_output
+
+# Misc
+README.md
+LICENSE
+.prettierrc
+.eslintrc
